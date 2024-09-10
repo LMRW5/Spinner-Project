@@ -4,7 +4,7 @@ import './App.css'
 import inspect from "./assets/inspect.jpg"
 function App() {
   const [counter, setCounter] = useState(0)
-  const handleclick = ()=>{
+  const handleclick = () => {
     setCounter(counter + 1)
   }
   return (
