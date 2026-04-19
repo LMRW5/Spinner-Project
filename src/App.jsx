@@ -2,8 +2,8 @@ import { useState, useRef } from 'react';
 import './App.css';
 
 const options = [
-  { label: 'First Place', prob: 0.1, color: '#FFD700', emoji: '🏆', prize: '2 Tickets!' },
-  { label: 'Podium Finish', prob: 0.2, color: '#C0C0C0', emoji: '🥈', prize: '1 Ticket!' },
+  { label: 'First Place', prob: 0.2, color: '#FFD700', emoji: '🏆', prize: '2 Tickets!' },
+  { label: 'Podium Finish', prob: 0.1, color: '#C0C0C0', emoji: '🥈', prize: '1 Ticket!' },
   { label: 'Finish Line', prob: 0.7, color: '#2c3e50', emoji: '🏁', prize: 'Keep Racing!' }
 ];
 
